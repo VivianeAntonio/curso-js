@@ -15,4 +15,3 @@ console.log(
 console.log(
     document.documentElement.firstChild
 )
-
