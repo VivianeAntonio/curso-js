@@ -14,6 +14,17 @@ var imagem = document.getElementById("imagem")
 imagem.src = "html5.jpg"
 imagem.alt = "Teste de imagem"
 imagem.width = "400"
+
+
+var imagem2 = document.createElement("img")
 imagem2.src = "javascript.png"
-imagem2.width = "400"
+
+
+
+var elemento = document.createElement("p")
+elemento.innerHTML = "Olá pessoal"
+
+console.log(
+    imagem2, elemento
+)
 
